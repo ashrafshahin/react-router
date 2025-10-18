@@ -13,8 +13,10 @@ const Navbar = () => {
         <div className='w-1/2'>
           <ul className='flex justify-end items-center'>
             <li className='mr-10'><Link to="/">Home</Link></li>
-            <li className='mr-10'> <Link to="/registration">Registration</Link> </li>
-            <li className='mr-10'><Link to="/login">Login</Link></li>
+            <li className='mr-10'> <Link to="/about">About</Link> </li>
+            <li className='mr-10'><Link to="/services">Services</Link></li>
+            <li className='mr-10'><Link to="/registration">Registration</Link></li>
+            <li className='mr-10'><Link to="/login">Log In</Link></li>
             
           </ul>
         </div>
